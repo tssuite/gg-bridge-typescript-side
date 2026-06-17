@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/gg-bridge-dart-typescript':
-        specifier: file:../gg-bridge-dart-typescript
-        version: file:../gg-bridge-dart-typescript
+        specifier: git+ssh://git@github.com/tssuite/gg-bridge-dart-typescript.git#bridge_publish_e2e
+        version: git+ssh://git@github.com/tssuite/gg-bridge-dart-typescript.git#ba8554b9f053b11bda25e16d6de13406b4024884
     devDependencies:
       '@esbuild/linux-x64':
         specifier: ^0.28.0
@@ -386,8 +386,9 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/gg-bridge-dart-typescript@file:../gg-bridge-dart-typescript':
-    resolution: {directory: ../gg-bridge-dart-typescript, type: directory}
+  '@tssuite/gg-bridge-dart-typescript@git+ssh://git@github.com/tssuite/gg-bridge-dart-typescript.git#ba8554b9f053b11bda25e16d6de13406b4024884':
+    resolution: {commit: ba8554b9f053b11bda25e16d6de13406b4024884, repo: git@github.com:tssuite/gg-bridge-dart-typescript.git, type: git}
+    version: 1.0.0
     engines: {node: '>=22'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1687,7 +1688,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/gg-bridge-dart-typescript@file:../gg-bridge-dart-typescript': {}
+  '@tssuite/gg-bridge-dart-typescript@git+ssh://git@github.com/tssuite/gg-bridge-dart-typescript.git#ba8554b9f053b11bda25e16d6de13406b4024884': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:
