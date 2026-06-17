@@ -25,7 +25,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@tssuite/gg-bridge-dart-typescript": "^1.0.0"
+    "@tssuite/gg-bridge-dart-typescript": "file:../gg-bridge-dart-typescript"
   },
   "devDependencies": {
     "@esbuild/linux-x64": "^0.28.0",
