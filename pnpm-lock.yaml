@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/gg-bridge-dart-typescript':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: 1.0.1
+        version: 1.0.1
     devDependencies:
       '@esbuild/linux-x64':
         specifier: ^0.28.0
@@ -386,8 +386,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/gg-bridge-dart-typescript@1.0.0':
-    resolution: {integrity: sha512-rkedZhG4cK74ewuiaDwvEHYDyXQQnd5qsux5HFIigHdkk/eqFat1+HTMLPxBk7H+RtCQQddBCsOPEN7ZJIpANQ==}
+  '@tssuite/gg-bridge-dart-typescript@1.0.1':
+    resolution: {integrity: sha512-yq9msy1GBM3O5AniEAIwQ5rlSasFWyuDGV/n2lIqTzn1r0Pzs6dYyYuVVXFMNpOV18S+CeTGl8WlqxGVxSVEhw==}
     engines: {node: '>=22'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1687,7 +1687,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/gg-bridge-dart-typescript@1.0.0': {}
+  '@tssuite/gg-bridge-dart-typescript@1.0.1': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

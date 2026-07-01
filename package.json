@@ -1,6 +1,6 @@
 {
   "name": "@tssuite/gg-bridge-typescript-side",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The typescript side of a dart - bridge - typescript project",
   "homepage": "https://github.com/tssuite/gg-bridge-typescript-side",
   "bugs": "https://github.com/tssuite/gg-bridge-typescript-side/issues",
@@ -25,7 +25,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@tssuite/gg-bridge-dart-typescript": "^1.0.0"
+    "@tssuite/gg-bridge-dart-typescript": "1.0.1"
   },
   "devDependencies": {
     "@esbuild/linux-x64": "^0.28.0",
