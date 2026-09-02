@@ -31,6 +31,8 @@
     "@esbuild/linux-x64": "^0.28.2",
     "@playwright/test": "^1.62.1",
     "@rollup/rollup-linux-x64-gnu": "^4.62.4",
+    "@tssuite/dna-tssuite": "^0.1.1",
+    "@tssuite/helix-js": "^0.1.0",
     "@types/node": "^26.2.0",
     "@typescript-eslint/eslint-plugin": "^8.67.0",
     "@typescript-eslint/parser": "^8.67.0",
