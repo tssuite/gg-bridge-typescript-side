@@ -4,13 +4,16 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@tssuite/gg-bridge-dart-typescript': link:../gg-bridge-dart-typescript
+
 importers:
 
   .:
     dependencies:
       '@tssuite/gg-bridge-dart-typescript':
-        specifier: 1.0.2
-        version: 1.0.2
+        specifier: link:../gg-bridge-dart-typescript
+        version: link:../gg-bridge-dart-typescript
     devDependencies:
       '@esbuild/linux-x64':
         specifier: ^0.28.2
@@ -358,10 +361,6 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
-  '@tssuite/gg-bridge-dart-typescript@1.0.2':
-    resolution: {integrity: sha512-UicoOxSsIAYZ7nl9KSo9RCgiuZUqjvFlNx0u01Gzk1FnHK0WjK41VW6dkOPerA+47Nd3cEoVd4JSyqVqBxlLfQ==}
-    engines: {node: '>=22'}
 
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
@@ -1627,8 +1626,6 @@ snapshots:
   '@sindresorhus/base62@1.0.0': {}
 
   '@standard-schema/spec@1.1.0': {}
-
-  '@tssuite/gg-bridge-dart-typescript@1.0.2': {}
 
   '@types/chai@5.2.3':
     dependencies:
