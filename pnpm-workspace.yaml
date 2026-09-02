@@ -11,5 +11,3 @@ minimumReleaseAgeExclude:
   - '@typescript-eslint/utils@8.60.1'
   - '@typescript-eslint/visitor-keys@8.60.1'
   - typescript-eslint@8.60.1
-overrides:
-  "@tssuite\/gg-bridge-dart-typescript": link:../gg-bridge-dart-typescript

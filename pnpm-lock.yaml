@@ -4,16 +4,13 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@tssuite/gg-bridge-dart-typescript': link:../gg-bridge-dart-typescript
-
 importers:
 
   .:
     dependencies:
       '@tssuite/gg-bridge-dart-typescript':
-        specifier: link:../gg-bridge-dart-typescript
-        version: link:../gg-bridge-dart-typescript
+        specifier: 1.0.3
+        version: 1.0.3
     devDependencies:
       '@esbuild/linux-x64':
         specifier: ^0.28.2
@@ -55,8 +52,8 @@ importers:
         specifier: ^0.5.2
         version: 0.5.2(eslint@10.9.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       globals:
-        specifier: ^17.11.0
-        version: 17.11.0
+        specifier: ^17.12.0
+        version: 17.12.0
       jsdoc:
         specifier: ^4.0.5
         version: 4.0.5
@@ -416,6 +413,10 @@ packages:
 
   '@tssuite/dna-tssuite@0.1.1':
     resolution: {integrity: sha512-T2wQ5G6Wt4JfpA8wXqFQzQgryZQAUmTD09nclu0wLKgWDtulh6L7/pc0UG3klCZwRaFd2LQOnaIV5+uDzTuV0g==}
+    engines: {node: '>=22'}
+
+  '@tssuite/gg-bridge-dart-typescript@1.0.3':
+    resolution: {integrity: sha512-CAtTwMS5xXRsm/aJix1ZbgApPd7+9T38dNk7llsQXMKI+FCsWL1n+5Zlx0DQepFvVR0Hi+1lMYwtHk6uwNMXnw==}
     engines: {node: '>=22'}
 
   '@tssuite/helix-js@0.1.0':
@@ -834,8 +835,8 @@ packages:
     resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==}
     engines: {node: '>=10.13.0'}
 
-  globals@17.11.0:
-    resolution: {integrity: sha512-Z2I8hM+PbJDXQDq3Icgpzv+mPdwr68iZUU9d5WW4FuXfDUQfkZaZuvjMv42/5crNyw154+9+VWXbYrUgDXbxNw==}
+  globals@17.12.0:
+    resolution: {integrity: sha512-cezEd/DTyyht9cvSSURyygXPfy04GtWO/5e6ZPvH7fCtjKz9PYOmuawphw1Ctd1f6C+5JypXfGD7ahNMXvevBA==}
     engines: {node: '>=18'}
 
   globrex@0.1.2:
@@ -1726,6 +1727,8 @@ snapshots:
       '@ggdna/dna-translate': 0.1.0
       '@ggdna/dna-vscode': 0.1.0
 
+  '@tssuite/gg-bridge-dart-typescript@1.0.3': {}
+
   '@tssuite/helix-js@0.1.0': {}
 
   '@types/chai@5.2.3':
@@ -2206,7 +2209,7 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  globals@17.11.0: {}
+  globals@17.12.0: {}
 
   globrex@0.1.2: {}
 
