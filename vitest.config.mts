@@ -15,7 +15,8 @@ export default defineConfig(({ mode }) => {
       globals: true,
       environment: 'jsdom',
       setupFiles: ['./test/setup/test-setup.ts'],
-      include: ['test/**/*.spec.ts'],
+      // *.test.ts picks up the version test gg_version generates on release.
+      include: ['test/**/*.spec.ts', 'test/**/*.test.ts'],
       exclude: ['tests-e2e/**', 'node_modules/**', 'dist/**'],
 
       reporters: ['default'],
